@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            TypeCasting ob = new TypeCasting();
+            Strings ob = new Strings();
             ob.MyMethod();
         }
     }
