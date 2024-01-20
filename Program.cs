@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Strings ob = new Strings();
+            Arrays ob = new Arrays();
             ob.MyMethod();
         }
     }
