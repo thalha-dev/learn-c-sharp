@@ -1,4 +1,4 @@
-﻿using Abstraction;
+﻿using Interfaces;
 
 namespace core_1
 {
@@ -6,10 +6,8 @@ namespace core_1
     {
         static void Main(string[] args)
         {
-            Animal myPig = new Pig();  // Create a Pig object
-
+            IAnimal myPig = new Pig(); 
             myPig.animalSound();
-            myPig.sleep();
         }
     }
 }
