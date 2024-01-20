@@ -4,10 +4,8 @@
     {
         static void Main(string[] args)
         {
-            HelloWorld ob = new HelloWorld();
+            TypeCasting ob = new TypeCasting();
             ob.MyMethod();
-            DataTypes ob2 = new DataTypes();
-            ob2.MyMethod();
         }
     }
 }
